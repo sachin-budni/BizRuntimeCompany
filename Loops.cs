@@ -144,6 +144,18 @@ namespace Loops
             {
                 Console.WriteLine("your age is = " + age);
             }
+
+            for(int k=1; k<=5; k++)
+            {
+                if(k==3)
+                {
+                    goto Google;
+                }
+                Console.WriteLine(k);
+            }
+        Google:
+            Console.WriteLine("came out loop");
+            
             Console.ReadLine();
         }
     }
