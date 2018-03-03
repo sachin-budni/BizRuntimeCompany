@@ -10,6 +10,7 @@ namespace Loops
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("If Condition");
             Console.WriteLine("Enter Any Number");
             int i = Convert.ToInt32(Console.ReadLine());
             if (i < 0)
@@ -50,6 +51,9 @@ namespace Loops
                     Console.WriteLine("Out of Out");
                 }
             }
+
+            Console.WriteLine("switch cases");
+
             switch (i)
             {
                 case 10:
@@ -65,8 +69,10 @@ namespace Loops
                     Console.WriteLine("it is not 10,20,30 number");
                     break;
             }
+
             Console.WriteLine("for Loop");
-            for(int k=1; k<=3; k++)
+
+            for (int k=1; k<=3; k++)
             {
                 for(int m=1; m<=3; m++)
                 {
@@ -74,8 +80,10 @@ namespace Loops
                 }
             }
             int n = 1;
+
             Console.WriteLine("while Loops");
-            while(n<=3)
+
+            while (n<=3)
             {
                 int o = 1;
                 while(o<=3)
@@ -85,7 +93,9 @@ namespace Loops
                 }
                 n++;
             }
+
             Console.WriteLine("Do While Loop");
+
             int x = 1;
             do
             {
@@ -99,8 +109,10 @@ namespace Loops
                 x++;
             }
             while (x < 3);
+
             Console.WriteLine("break Statement");
-            for(int p=1;p<=5; p++)
+
+            for (int p=1;p<=5; p++)
             {
                 if(p==4)
                 {
@@ -108,8 +120,10 @@ namespace Loops
                 }
                 Console.WriteLine(p);
             }
+
             Console.WriteLine("Continues Statement");
-            for(int p=1; p<=5; p++)
+
+            for (int p=1; p<=5; p++)
             {
                 if(p==3)
                 {
@@ -117,6 +131,8 @@ namespace Loops
                 }
                 Console.WriteLine(p);
             }
+
+            Console.WriteLine("Goto statements");
         good:
             Console.WriteLine("enter proper age");
             int age = Convert.ToInt32(Console.ReadLine());
