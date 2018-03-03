@@ -80,6 +80,12 @@ namespace Loops
                 }
             }
             int n = 1;
+            Console.WriteLine("For Echa Loops");
+            int[] z = new int[] { 10, 20, 30, 40, 60, 80 };
+            foreach(int z1 in z)
+            {
+                Console.WriteLine(z1);
+            }
 
             Console.WriteLine("while Loops");
 
@@ -155,6 +161,7 @@ namespace Loops
             }
         Google:
             Console.WriteLine("came out loop");
+            
             
             Console.ReadLine();
         }
