@@ -11,6 +11,7 @@ namespace Opps
         string Name;
         int age;
         int salary;
+        //args constructor without static
         public A(string Name, int age, int salary)
         {
             this.Name = Name;
@@ -29,6 +30,8 @@ namespace Opps
         int Age;
         public static int Salary;
         public static int count=0;
+        //args constructor with static
+
         public void Get(string Name,int Age)
         {
             this.Name = Name;
@@ -52,13 +55,21 @@ namespace Opps
         {
             Console.WriteLine("From C to test");
         }
+        public virtual void test1()
+        {
+            Console.WriteLine("From overiden");
+        }
     }
     //-------------------------------------------------------------------------------------------
     class D : C
     {
-        public void test1()
+        public override void test1()
         {
-            Console.WriteLine("From D class");
+            Console.WriteLine("From D class Overriding");
+        }
+        public void test1(int i)
+        {
+            Console.WriteLine(" from D Class OverLoading");
         }
     }
     //---------------------------------------------------------------------------------------------------------------
@@ -146,7 +157,10 @@ namespace Opps
 
             D d1 = new D();
             d1.test();
+            d1.test1();
+            d1.test1(32);
             Console.WriteLine();
+
             F f1 = new F();
             f1.Name = "Ravi";
             f1.Age = 36;
