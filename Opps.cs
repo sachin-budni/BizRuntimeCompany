@@ -57,6 +57,7 @@ namespace Opps
         }
         public virtual void test1()
         {
+            this.test();
             Console.WriteLine("From overiden");
         }
     }
@@ -69,6 +70,7 @@ namespace Opps
         }
         public void test1(int i)
         {
+            base.test();
             Console.WriteLine(" from D Class OverLoading");
         }
     }
@@ -79,7 +81,7 @@ namespace Opps
         void test3();
     }
     //------------------------------------------------------------------------------------------------------------------
-    class F
+    class F:G
     {
         public string Name
         {
@@ -96,6 +98,29 @@ namespace Opps
         {
             get;
             set;
+        }
+
+        public override void test()
+        {
+            Console.WriteLine("Abstract Method");
+        }
+    }
+    public abstract class G
+    {
+        public abstract void test();
+    }
+    class H
+    {
+        public H(int i)
+        {
+            Console.WriteLine("H Class is invoked");
+        }
+    }
+    class I : H
+    {
+        public I():base(90)
+        {
+            Console.WriteLine("I Class is invoked");
         }
     }
     //------------------------------------------------------------------------------------------------------
@@ -165,10 +190,13 @@ namespace Opps
             f1.Name = "Ravi";
             f1.Age = 36;
             f1.Salary = 80000;
-
+            f1.test();
             Console.WriteLine("Name :"+f1.Name);
             Console.WriteLine("Age :"+f1.Age);
             Console.WriteLine("Salary :"+f1.Salary);
+            Console.WriteLine();
+
+            I i1 = new I();
 
             Console.Read();
         }
