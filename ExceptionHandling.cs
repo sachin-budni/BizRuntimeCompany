@@ -23,6 +23,21 @@ namespace ExceptionHandling
 
     class ExceptionHandling
     {
+        public static void test10()
+        {
+            int i = 102;
+            int j = 0;
+            int k = 0;
+            try
+            {
+                k = i / j;
+            }
+            finally
+            {
+                Console.WriteLine("Finally block execuded");
+            }
+            Console.WriteLine("Rest Of the codes");
+        }
         public static void test9()
         {
             int i = 102;
@@ -153,7 +168,7 @@ namespace ExceptionHandling
         }
         static void Main(string[] args)
         {
-            //test();
+            test();
             Console.WriteLine("-----------------------");
 
             test1();
@@ -165,7 +180,7 @@ namespace ExceptionHandling
             {
                 test3();
             }
-            catch(InvalidedTempException e)
+            catch (InvalidedTempException e)
             {
                 Console.WriteLine(e);
             }
@@ -181,9 +196,6 @@ namespace ExceptionHandling
             test6();
             Console.WriteLine("--------------------------");
 
-            test6();
-            Console.WriteLine("--------------------------");
-
             test7();
             Console.WriteLine("--------------------------");
 
@@ -191,6 +203,9 @@ namespace ExceptionHandling
             Console.WriteLine("-------------------------");
 
             test9();
+            Console.WriteLine("-------------------------");
+
+            test10();
             Console.WriteLine("-------------------------");
 
             Console.ReadKey();
