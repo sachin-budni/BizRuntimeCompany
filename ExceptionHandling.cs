@@ -23,6 +23,28 @@ namespace ExceptionHandling
 
     class ExceptionHandling
     {
+        public static void test11()
+        {
+            int i = 102;
+            int j = 0;
+            int k = 0;
+            try
+            {
+                try
+                {
+                    k = i / j;
+                }
+                catch(DivideByZeroException e)
+                {
+                    Console.WriteLine(e);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            Console.WriteLine("Rest Of the Code");
+        }
         public static void test10()
         {
             int i = 102;
@@ -206,6 +228,9 @@ namespace ExceptionHandling
             Console.WriteLine("-------------------------");
 
             test10();
+            Console.WriteLine("-------------------------");
+
+            test11();
             Console.WriteLine("-------------------------");
 
             Console.ReadKey();
