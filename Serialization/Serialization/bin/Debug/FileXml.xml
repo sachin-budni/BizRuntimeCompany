@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<STUDENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>1</ID>
+  <NAME>sham</NAME>
+  <AGE>21</AGE>
+</STUDENT><?xml version="1.0" encoding="utf-8"?>
+<STUDENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>2</ID>
+  <NAME>raju</NAME>
+  <AGE>24</AGE>
+</STUDENT><?xml version="1.0" encoding="utf-8"?>
+<STUDENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>3</ID>
+  <NAME>shiva</NAME>
+  <AGE>34</AGE>
+</STUDENT><?xml version="1.0" encoding="utf-8"?>
+<STUDENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>4</ID>
+  <NAME>ranga</NAME>
+  <AGE>35</AGE>
+</STUDENT>
