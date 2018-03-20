@@ -1,0 +1,5 @@
+F:\BiizRuntime\NetworkPrograming\MyClients2\MyClients2\bin\Debug\MyClients2.exe.config
+F:\BiizRuntime\NetworkPrograming\MyClients2\MyClients2\bin\Debug\MyClients2.exe
+F:\BiizRuntime\NetworkPrograming\MyClients2\MyClients2\bin\Debug\MyClients2.pdb
+F:\BiizRuntime\NetworkPrograming\MyClients2\MyClients2\obj\Debug\MyClients2.exe
+F:\BiizRuntime\NetworkPrograming\MyClients2\MyClients2\obj\Debug\MyClients2.pdb

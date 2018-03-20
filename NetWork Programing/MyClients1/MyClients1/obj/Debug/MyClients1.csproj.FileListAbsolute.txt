@@ -1,0 +1,6 @@
+F:\BiizRuntime\NetworkPrograming\MyClients1\MyClients1\bin\Debug\MyClients1.exe.config
+F:\BiizRuntime\NetworkPrograming\MyClients1\MyClients1\bin\Debug\MyClients1.exe
+F:\BiizRuntime\NetworkPrograming\MyClients1\MyClients1\bin\Debug\MyClients1.pdb
+F:\BiizRuntime\NetworkPrograming\MyClients1\MyClients1\obj\Debug\MyClients1.exe
+F:\BiizRuntime\NetworkPrograming\MyClients1\MyClients1\obj\Debug\MyClients1.pdb
+F:\BiizRuntime\NetworkPrograming\MyClients1\MyClients1\obj\Debug\MyClients1.csprojResolveAssemblyReference.cache
