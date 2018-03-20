@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Document</title>
+  <style>
+	body
+	{
+		background-image:url("watchmen_smiley-HD.jpg");
+		//background-image:url("https://www.hdwallpapers.in/walls/watchmen_smiley-HD.jpg");
+	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: yellow;
+		opacity:0.6;
+	}
+
+	li {
+		float: left;
+	}
+
+	li a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 15px;
+		text-decoration: none;
+		font-size:25px;
+		font-family:"AR ESSENCE";
+	}
+
+	li a:hover {
+		background-color: #111111;
+		color:white;
+	}
+	#First
+	{
+		margin-left:30%;
+		margin-top:5%;
+		border-radius:10px;
+		opacity:0.8;
+	}
+	.lable
+	{
+		font-size:25px;
+		font-weight:bold;
+		font-family:"Adobe Caslon Pro Bold";
+	}
+	#inputs
+	{
+		text-align:center;
+		padding:10px;
+		font-size:15px;
+		margin-left:5px;
+		font-family:"Eras Bold ITC";
+		width:250px;
+	}
+	#submit
+	{
+		border-radius:10px;
+		background-color:blue;
+		padding:10px;
+		padding-left: 40px;
+		padding-right:40px;
+		margin-left:120px;
+		font-size:25px;
+	}
+	#submit:hover
+	{
+		 box-shadow: 10px 10px 25px black;
+	}
+	#form
+	{
+		margin-top:5px;
+		font-size:28px;
+		font-weight:bold;
+	}
+  </style>
+ </head>
+ <body style="width:100%;height:100%">
+	<div id="nav">
+		<ul>
+			<li><a href="#Home">HOME</a></li>
+			<li><a href="#News">NEWS</a></li>
+			<li><a href="#Contact">CONTACT</a></li>
+			<li><a href="#About">ABOUT</a></li>
+		</ul>
+	</div>
+	 <div style="width:500px;height:340px;background-color:lightblue" id="First">
+		 <form>
+			<table>
+				<caption id="form">FORMS</caption>
+				<tr>
+					<td class="lable">First Name </td><td>:<input type="text" name="firstName" id="inputs" placeholder="FirstName" required/></td>
+				</tr>
+				<tr>
+					<td class="lable">Last Name </td><td>:<input type="text" name="lastName" id="inputs" placeholder="LastName" required/></td>
+				</tr>
+				<tr>
+					<td class="lable">Age </td><td>:<input type="number" name="age" placeholder="Age" id="inputs" max="4" required/><td>
+				</tr>
+				<tr>
+					<td class="lable">Mobile Number </td><td>:<input type="number" name="mobileNumber" id="inputs" max="9999999999" placeholder="MobileNumber" required/></td>
+				</tr>
+				<tr>
+					<td class="lable">Email </td><td>:<input type="email" name="email" placeholder="Email" id="inputs" required/></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" id="submit" value="submit"/></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+ </body>
+</html>
