@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body id="body2" >
+    <input type="button" value="Time" onclick="TimeDate()"/><br/>
+   
+     <h1><div id="time"></div></h1>
+    
+    <input type="text" id="input" onkeyup="inputValue()"/><br/>
+    
+    <h1><div id="inputs" style="font-family:'28 Days Later'"></div></h1>
+    
+    <input type="button" value="BackGroundColor" onclick="backGround()"/><br/><br/>
+    
+    <input type="button" value="HI...." onclick="Images()"/><br/>
+    
+    <img src="jkfjdkf.gif" id="imgs" alt="image"/><br/>
+    
+    <input type="button" value="Count" onclick="CountNum()"/><br/>
+    
+    <div id="nums" style="font-size:100px"></div><br/><br /><br />
+    
+    <h1><div id="obj"></div></h1><br/><br/>
+    
+    <h1><div id="arr"></div></h1>
+    
+    <h1><div id="obj1"></div></h1>
+    
+    <hr />
+
+
+    <script>
+        var Count = 1;
+
+        function CountNum()
+        {
+            document.getElementById("nums").innerHTML = Count++;
+            setTimeout(function () { CountNum() }, 1000);
+        }
+
+        function TimeDate()
+        {
+            document.getElementById("time").innerHTML = Date();
+            setTimeout(function () { TimeDate() }, 1000);
+
+        }
+
+        function inputValue()
+        {
+            var s = document.getElementById("input").value;
+            document.getElementById("inputs").innerHTML = s.toUpperCase().italics();
+        }
+
+        function backGround() {
+            document.getElementById("body2").style.backgroundColor = "#788bb6";
+            setTimeout(function () { color1() }, 1000);
+        }
+
+        function color1()
+        {
+            document.getElementById("body2").style.backgroundColor = "#2a61e2";
+            setTimeout(function () { color2() }, 1000);
+        }
+
+        function color2()
+        {
+            document.getElementById("body2").style.backgroundColor = "#9c2b6b";
+            setTimeout(function () { color3() }, 1000);
+
+        }
+
+        function color3()
+        {
+            document.getElementById("body2").style.backgroundColor = "#5eb24b";
+            setTimeout(function () { color4() }, 1000);
+
+        }
+
+        function color4() {
+            document.getElementById("body2").style.backgroundColor = "#b2964bs";
+            setTimeout(function () { color5() }, 1000);
+
+        }
+
+        function color5() {
+            document.getElementById("body2").style.backgroundColor = "#df6f38";
+            setTimeout(function () { backGround() }, 1000);
+
+        }
+
+
+        function Images()
+        {
+            document.getElementById("imgs").src = "festival.jpg";
+            setTimeout(function () { images() }, 5000);
+        }
+
+        function images()
+        {
+            document.getElementById("imgs").src = "Hii.gif";
+        }
+
+        var person = new Object();
+        person = { "firstName": "sachin", "lastName": "budni", "age": 21 };
+        document.getElementById("obj").innerHTML = person.firstName+"  "+person["firstName"];
+
+        var persons = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"];
+        var sr = "";
+        //for (var per = 0; per < persons.length; per++)
+        //{
+        //    sr += persons[per];
+        //}
+        for (var per in persons)
+        {
+            sr +=persons[per]+",   ";
+        }
+        document.getElementById("arr").innerHTML = sr;
+
+        function Employee()
+        {
+            this.FirstName = "rajiv";
+            this.LastName = "Shiva";
+            this.Age = 21;
+            this.FullName = function () { return this.FirstName + "  " + this.LastName };
+            this.Email = Email;
+            function Email()
+            {
+                return "sachinbundi@gmail.com";
+            }
+        }
+
+        var e1 = new Employee();
+        document.getElementById("obj1").innerHTML = e1.FullName() + "<br/>   Email :" + e1.Email();
+
+        var Persons1 = {
+                        "person": [{ "name": "Rajiv", "City": "bangalore" },
+                                    { "name": "Ravi", "City": "Hyderabad" }],
+                        "skills": [{ "skillName": "Java", "Scope": "More" },
+                                    { "skillName": "C", "Scope": "Less" }]
+                        };
+        document.write("<h1>Info about person:</h1>");
+        document.write("<h3>" + Persons1.person[0].name +"   "+ Persons1.person[0].City+ "</h3>");
+        document.write("<h3>" + Persons1.person[1].name + "   " + Persons1.person[1].City + "</h3>");
+        document.write("<h1>Info about skills: </h1>");
+        document.write("<h3>" + Persons1.skills[0].skillName + "   " + Persons1.skills[0].Scope+ "</h3>");
+        document.write("<h3>" + Persons1.skills[1].skillName + "   " + Persons1.skills[1].Scope + "</h3>");
+        /*--------------------------------------------------*/
+        var json = JSON.stringify(Persons1);
+        document.write("<h1>"+json+"</h1>");
+    </script>
+</body>
+</html>
