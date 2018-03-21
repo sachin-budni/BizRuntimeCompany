@@ -1,0 +1,6 @@
+F:\BiizRuntime\NetworkPrograming\UDPServer\UDPServer\bin\Debug\UDPServer.exe.config
+F:\BiizRuntime\NetworkPrograming\UDPServer\UDPServer\bin\Debug\UDPServer.exe
+F:\BiizRuntime\NetworkPrograming\UDPServer\UDPServer\bin\Debug\UDPServer.pdb
+F:\BiizRuntime\NetworkPrograming\UDPServer\UDPServer\obj\Debug\UDPServer.csprojResolveAssemblyReference.cache
+F:\BiizRuntime\NetworkPrograming\UDPServer\UDPServer\obj\Debug\UDPServer.exe
+F:\BiizRuntime\NetworkPrograming\UDPServer\UDPServer\obj\Debug\UDPServer.pdb

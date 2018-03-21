@@ -1,0 +1,5 @@
+F:\BiizRuntime\NetworkPrograming\UDPCilent\UDPCilent\bin\Debug\UDPCilent.exe.config
+F:\BiizRuntime\NetworkPrograming\UDPCilent\UDPCilent\bin\Debug\UDPCilent.exe
+F:\BiizRuntime\NetworkPrograming\UDPCilent\UDPCilent\bin\Debug\UDPCilent.pdb
+F:\BiizRuntime\NetworkPrograming\UDPCilent\UDPCilent\obj\Debug\UDPCilent.exe
+F:\BiizRuntime\NetworkPrograming\UDPCilent\UDPCilent\obj\Debug\UDPCilent.pdb
