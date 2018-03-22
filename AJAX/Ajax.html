@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <input type="button" value="FileRead" onclick="fileRead()"/><br/><br />
+    <span id="txtFile"></span><br /><br /><br />
+    <hr />
+    <input type="button" value="JsonRead" onclick="jsonRead()" /><br /><br />
+    <span id="jsonFile1"></span><br /><br /><br />
+    <span id="jsonFile"></span><br /><br /><br />
+    <hr />
+    <input type="button" value="xmlRead" onclick="xmlRead()" /><br /><br />
+    <span id="xmlFile1"></span><br /><br /><br />
+    <span id="xmlFile"></span><br /><br /><br />
+    
+    <script>
+        function fileRead()
+        {
+            var x = new XMLHttpRequest();
+            x.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("txtFile").innerHTML = x.responseText;
+                }
+            };
+            x.open("GET", "text2.txt", false);
+            x.send();
+        }
+
+        //-----------------------------------------------------------------------------------------
+
+        function jsonRead()
+        {
+            var x = new XMLHttpRequest();
+            x.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("jsonFile1").innerHTML = this.responseText;
+                    jsonReaded(this.responseText);
+                }
+            };
+            x.open("GET", "jsonfile.json", false);
+            x.send();
+        }
+
+        function jsonReaded(file)
+        {
+            var table = "<table border='1'><caption>EMPLOYEES</caption>";
+            table +="<tr><th>FirstName</th><th>LastName</th><th>Age</th><th>Gender</th></tr>";
+            var e1 = JSON.parse(file);
+            for(var i=0; i<e1.length; i++)
+            {
+                table += "<tr>"
+                table += "<td>" + e1[i].FirstName + "</td><td>" + e1[i].LastName + "</td><td>" + e1[i].Age + "</td><td>" + e1[i].Gender+"</td>";
+                table += "</tr>"
+                
+            }
+            table+="</table>";
+            document.getElementById("jsonFile").innerHTML=table;
+        }
+
+        //------------------------------------------------------------------------------------------------
+
+        function xmlRead()
+        {
+            var x = new XMLHttpRequest();
+            x.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("xmlFile1").innerHTML = this.responseText;
+                   // alert(this.responseXML);
+                     xmlReaded(this.responseXML);
+                }
+            };
+            x.open("GET", "xmlfile.xml", false);
+            x.send();
+        }
+
+        function xmlReaded(file)
+        {
+            var table = "<table border='1'><caption>EMPLOYEES</caption>";
+            table += "<tr><th>FirstName</th><th>LastName</th><th>Age</th><th>Gender</th></tr>";
+            var x = file.getElementsByTagName("Employee");
+            for(var i=0; i<x.length; i++)
+            {
+                var firstName = x[i].getElementsByTagName("FirstName")[0].childNodes[0].nodeValue;
+                var lastName = x[i].getElementsByTagName("LastName")[0].childNodes[0].nodeValue;
+                var age = x[i].getElementsByTagName("Age")[0].childNodes[0].nodeValue;
+                var gender = x[i].getElementsByTagName("Gender")[0].childNodes[0].nodeValue;
+                table += "<tr>";
+                table += "<td>" + firstName + "</td><td>" + lastName + "</td><td>" + age + "</td><td>" + gender + "</td>";
+                table += "</tr>";
+            }
+            table += "</table>";
+            document.getElementById("xmlFile").innerHTML = table;
+        }
+
+    </script>
+</body>
+</html>

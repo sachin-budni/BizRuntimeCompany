@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Employees>
+  <Employee>
+    <FirstName>shiva</FirstName>
+    <LastName>ramu</LastName>
+    <Age>24</Age>
+    <Gender>male</Gender>
+  </Employee>
+  <Employee>
+    <FirstName>raju</FirstName>
+    <LastName>rajiv</LastName>
+    <Age>28</Age>
+    <Gender>male</Gender>
+  </Employee>
+  <Employee>
+    <FirstName>rani</FirstName>
+    <LastName>joseph</LastName>
+    <Age>21</Age>
+    <Gender>female</Gender>
+  </Employee>
+  <Employee>
+    <FirstName>rajani</FirstName>
+    <LastName>shivani</LastName>
+    <Age>21</Age>
+    <Gender>female</Gender>
+  </Employee>
+  <Employee>
+    <FirstName>punite</FirstName>
+    <LastName>raghu</LastName>
+    <Age>39</Age>
+    <Gender>male</Gender>
+  </Employee>
+</Employees>

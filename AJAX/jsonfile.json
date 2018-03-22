@@ -1,0 +1,32 @@
+﻿[
+    {
+      "FirstName": "ramu",
+      "LastName": "shvia",
+      "Age": 23,
+      "Gender": "male"
+    },
+    {
+      "FirstName": "rajiv",
+      "LastName": "ranga",
+      "Age": 26,
+      "Gender": "male"
+    },
+    {
+      "FirstName": "rani",
+      "LastName": "shivani",
+      "Age": 18,
+      "Gender": "female"
+    },
+    {
+      "FirstName": "sanjay",
+      "LastName": "chandru",
+      "Age": 30,
+      "Gender": "male"
+    },
+    {
+      "FirstName": "rajani",
+      "LastName": "tiwari",
+      "Age": 29,
+      "Gender": "female"
+    }
+            ]
