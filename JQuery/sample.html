@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide(2000);
+    });
+    $("#show").click(function(){
+        $("p").show(2000);
+    });
+    $("#toggle").click(function () {
+        $("p").toggle(2000);
+    });
+    $("#fadeout").click(function () {
+        $("p").fadeOut();
+    });
+    $("#fadein").click(function () {
+        $("p").fadeIn();
+    });
+    $("#fadetoggle").click(function () {
+        $("p").fadeToggle();
+    });
+    $("#fadeto").click(function () {
+        $("p").fadeTo("slow",0.4);
+    });
+
+    //$("#flip").click(function () {
+    //    $("#panel").slideDown(2000);
+    //});
+
+    $("#flip").click(function () {
+        $("#panel").stop(2000);
+    });
+    $("#flip").dblclick(function () {
+        $("#panel").slideToggle(2000);
+    });
+    $("#animation").click(function () {
+        var div = $("#div1");
+        div.animate({ height: '300px', opacity: '0.4' }, 3000);
+        div.animate({ width: '300px', opacity: '0.8' }, 3000);
+        div.animate({ height: '100px', opacity: '0.4' }, 3000);
+        div.animate({ width: '100px', opacity: '0.8' }, 3000);
+    });
+    $("#flip1").mouseenter(function () {
+        $("#panel1").slideDown();
+    });
+    $("#flip1").mouseleave(function () {
+        $("#panel1").slideUp();
+    });
+    $("#both").click(function () {
+        $("#p1").css("color", "blue").slideUp(1000).slideDown(1000);
+    });
+    $("#values").click(function () {
+        alert("WelCome :" + $("#name").val().toUpperCase());
+    });
+    $("#hrefs").click(function () {
+        alert("Website : " + $("#w3s").attr("href"));
+    });
+    $("#btn2").click(function () {
+        $("ol").append("<li>"+$("#fruit").val().toUpperCase()+"</li>");
+    });
+    $("#rem1").click(function () {
+        $("ol").remove($("li").val());
+    });
+    $("#btn1").click(function () {
+        $("#w3s").css("background-color", "yellow");
+    });
+    $("#bnt3").click(function () {
+        $("#ajax1").load("sample1.txt");
+    });
+});
+    </script>
+    <style>
+        #panel,#flip{
+            background-color:yellow;
+            text-align:center;
+            padding:10px;
+            border:solid 1px black;
+        }
+        #panel{
+            padding:50px;
+            display:none;
+        }
+        #panel1,#flip1{
+            background-color:yellow;
+            text-align:center;
+            padding:10px;
+            border:solid 1px black;
+        }
+        #panel1{
+            padding:50px;
+            display:none;
+        }
+        #both,#p1{
+            margin-top:5px;
+            margin-bottom:5px;
+            position:unset;
+        }
+    </style>
+</head>
+<body>
+
+    <p>If you click on the "Hide" button, I will disappear.</p>
+
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="toggle">Toggle</button>
+    <button id="fadeout">FadeOut</button>
+    <button id="fadein">FadeIn</button>
+    <button id="fadetoggle">FadeToggle</button>
+    <button id="fadeto">FadeTo</button>
+    <div id="flip">Click Me</div>
+    <div id="panel">Hello To All</div>
+    <div id="flip1">Click Me</div>
+    <div id="panel1">Hello To All</div>
+    <button id="animation">Start Animation</button>
+    <div id="div1" style="background:#98bf21;height:100px;width:100px;position:relative;"></div><br/>
+    <h1 id="p1">Some Thing</h1>
+    <button id="both">CloseOpen</button><br/>
+    Name :<input type="text" name="firstName" id="name" style="margin-bottom:5px"/><br/>
+    <button id="values">Click Me</button>
+    <p><a href="https://www.w3schools.com" id="w3s">W3Schools.com</a></p>
+    <button id="hrefs">Show href Value</button>
+    <ol>
+        <li>RAJU</li>
+        <li>SHIVA</li>
+        <li>JEEVA</li>
+    </ol>
+   Name :<input type="text" id="fruit"/><br/><br/>
+    <button id="btn2">Append list items</button><br/><br />
+    <button id="btn1">BackgroundChange</button><br /><br />
+    <button id="rem1">Remove</button><br /><br />
+    <div id="ajax1">Some paragraph from folder</div>
+    <button id="bnt3">FROMfolder</button>
+</body>
+</html>
