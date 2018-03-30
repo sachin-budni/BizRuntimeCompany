@@ -1,0 +1,10 @@
+F:\BiizRuntime\Entityframework\Entity\Entity\bin\Debug\Entity.exe.config
+F:\BiizRuntime\Entityframework\Entity\Entity\bin\Debug\Entity.exe
+F:\BiizRuntime\Entityframework\Entity\Entity\bin\Debug\Entity.pdb
+F:\BiizRuntime\Entityframework\Entity\Entity\bin\Debug\EntityFramework.dll
+F:\BiizRuntime\Entityframework\Entity\Entity\bin\Debug\EntityFramework.SqlServer.dll
+F:\BiizRuntime\Entityframework\Entity\Entity\bin\Debug\EntityFramework.xml
+F:\BiizRuntime\Entityframework\Entity\Entity\bin\Debug\EntityFramework.SqlServer.xml
+F:\BiizRuntime\Entityframework\Entity\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+F:\BiizRuntime\Entityframework\Entity\Entity\obj\Debug\Entity.exe
+F:\BiizRuntime\Entityframework\Entity\Entity\obj\Debug\Entity.pdb
