@@ -1,0 +1,10 @@
+F:\BiizRuntime\Entityframework\ModelFirst\ModelFirst\bin\Debug\ModelFirst.exe.config
+F:\BiizRuntime\Entityframework\ModelFirst\ModelFirst\bin\Debug\ModelFirst.exe
+F:\BiizRuntime\Entityframework\ModelFirst\ModelFirst\bin\Debug\ModelFirst.pdb
+F:\BiizRuntime\Entityframework\ModelFirst\ModelFirst\obj\Debug\ModelFirst.csprojResolveAssemblyReference.cache
+F:\BiizRuntime\Entityframework\ModelFirst\ModelFirst\obj\Debug\ModelFirst.exe
+F:\BiizRuntime\Entityframework\ModelFirst\ModelFirst\obj\Debug\ModelFirst.pdb
+F:\BiizRuntime\Entityframework\ModelFirst\ModelFirst\bin\Debug\EntityFramework.dll
+F:\BiizRuntime\Entityframework\ModelFirst\ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+F:\BiizRuntime\Entityframework\ModelFirst\ModelFirst\bin\Debug\EntityFramework.xml
+F:\BiizRuntime\Entityframework\ModelFirst\ModelFirst\bin\Debug\EntityFramework.SqlServer.xml

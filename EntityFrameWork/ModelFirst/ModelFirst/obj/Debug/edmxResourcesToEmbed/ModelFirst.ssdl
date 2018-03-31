@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelFirst.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelFirstStoreContainer">
+    <EntitySet Name="Homes" EntityType="ModelFirst.Store.Homes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="People" EntityType="ModelFirst.Store.People" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="HomePerson" Association="ModelFirst.Store.HomePerson">
+      <End Role="Home" EntitySet="Homes" />
+      <End Role="Person" EntitySet="People" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Homes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="People">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="HomeId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="HomePerson">
+    <End Role="Home" Type="ModelFirst.Store.Homes" Multiplicity="1" />
+    <End Role="Person" Type="ModelFirst.Store.People" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Home">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Person">
+        <PropertyRef Name="HomeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
