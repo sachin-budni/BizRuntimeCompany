@@ -1,0 +1,12 @@
+F:\BiizRuntime\Entityframework\CodeEntityMap\CodeEntityMap\bin\Debug\CodeEntityMap.exe.config
+F:\BiizRuntime\Entityframework\CodeEntityMap\CodeEntityMap\bin\Debug\CodeEntityMap.exe
+F:\BiizRuntime\Entityframework\CodeEntityMap\CodeEntityMap\bin\Debug\CodeEntityMap.pdb
+F:\BiizRuntime\Entityframework\CodeEntityMap\CodeEntityMap\bin\Debug\EntityFramework.dll
+F:\BiizRuntime\Entityframework\CodeEntityMap\CodeEntityMap\bin\Debug\EntityFramework.SqlServer.dll
+F:\BiizRuntime\Entityframework\CodeEntityMap\CodeEntityMap\bin\Debug\EntityFramework.xml
+F:\BiizRuntime\Entityframework\CodeEntityMap\CodeEntityMap\bin\Debug\EntityFramework.SqlServer.xml
+F:\BiizRuntime\Entityframework\CodeEntityMap\CodeEntityMap\obj\Debug\CodeEntityMap.csprojResolveAssemblyReference.cache
+F:\BiizRuntime\Entityframework\CodeEntityMap\CodeEntityMap\obj\Debug\CodeEntityMap.exe
+F:\BiizRuntime\Entityframework\CodeEntityMap\CodeEntityMap\obj\Debug\CodeEntityMap.pdb
+F:\BiizRuntime\Entityframework\CodeEntityMap\CodeEntityMap\obj\Debug\CodeEntityMap.Migrations.CreateAddress.resources
+F:\BiizRuntime\Entityframework\CodeEntityMap\CodeEntityMap\obj\Debug\CodeEntityMap.csproj.GenerateResource.Cache
