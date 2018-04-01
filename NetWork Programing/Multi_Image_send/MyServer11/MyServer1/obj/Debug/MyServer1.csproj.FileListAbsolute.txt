@@ -1,0 +1,15 @@
+F:\BiizRuntime\NetworkPrograming\MyServer1\MyServer1\bin\Debug\MyServer1.exe.config
+F:\BiizRuntime\NetworkPrograming\MyServer1\MyServer1\bin\Debug\MyServer1.exe
+F:\BiizRuntime\NetworkPrograming\MyServer1\MyServer1\bin\Debug\MyServer1.pdb
+F:\BiizRuntime\NetworkPrograming\MyServer1\MyServer1\obj\Debug\MyServer1.csprojResolveAssemblyReference.cache
+F:\BiizRuntime\NetworkPrograming\MyServer1\MyServer1\obj\Debug\MyServer1.exe
+F:\BiizRuntime\NetworkPrograming\MyServer1\MyServer1\obj\Debug\MyServer1.pdb
+F:\BiizRuntime\NetworkPrograming\MyServer11\MyServer1\bin\Debug\MyServer1.exe.config
+F:\BiizRuntime\NetworkPrograming\MyServer11\MyServer1\obj\Debug\MyServer1.exe
+F:\BiizRuntime\NetworkPrograming\MyServer11\MyServer1\obj\Debug\MyServer1.pdb
+F:\BiizRuntime\NetworkPrograming\Multi_Imagesend\MyServer11\MyServer1\bin\Debug\MyServer1.exe.config
+F:\BiizRuntime\NetworkPrograming\Multi_Imagesend\MyServer11\MyServer1\obj\Debug\MyServer1.exe
+F:\BiizRuntime\NetworkPrograming\Multi_Imagesend\MyServer11\MyServer1\obj\Debug\MyServer1.pdb
+F:\BiizRuntime\NetworkPrograming\Multi_Imagesend\MyServer11\MyServer1\bin\Debug\MyServer1.exe
+F:\BiizRuntime\NetworkPrograming\Multi_Imagesend\MyServer11\MyServer1\bin\Debug\MyServer1.pdb
+F:\BiizRuntime\NetworkPrograming\Multi_Imagesend\MyServer11\MyServer1\obj\Debug\MyServer1.csprojResolveAssemblyReference.cache
