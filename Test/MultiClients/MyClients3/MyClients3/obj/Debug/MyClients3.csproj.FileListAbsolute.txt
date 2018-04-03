@@ -1,0 +1,8 @@
+F:\BiizRuntime\NetworkPrograming\MyClients3\MyClients3\bin\Debug\MyClients3.exe.config
+F:\BiizRuntime\NetworkPrograming\MyClients3\MyClients3\bin\Debug\MyClients3.exe
+F:\BiizRuntime\NetworkPrograming\MyClients3\MyClients3\bin\Debug\MyClients3.pdb
+F:\BiizRuntime\NetworkPrograming\MyClients3\MyClients3\obj\Debug\MyClients3.exe
+F:\BiizRuntime\NetworkPrograming\MyClients3\MyClients3\obj\Debug\MyClients3.pdb
+F:\BiizRuntime\Test\MultiClients\MyClients3\MyClients3\bin\Debug\MyClients3.exe.config
+F:\BiizRuntime\Test\MultiClients\MyClients3\MyClients3\obj\Debug\MyClients3.exe
+F:\BiizRuntime\Test\MultiClients\MyClients3\MyClients3\obj\Debug\MyClients3.pdb

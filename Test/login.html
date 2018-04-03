@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    Name :<input type="text" id="Name" required/><br/>
+    Email :<input type="email" id="email" required/><br />
+    PassWord :<input type="password" id="password" required/><br />
+    MobileNumber :<input type="number" id="mobileNumber"required/><br />
+    Address :<textarea rows="5" cols="10" id="address"></textarea><br />
+    <input type="button" value="submit" onclick="validation()"/>
+    <script>
+        function validation()
+        {
+            var name = document.getElementById('Name').value;
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+            var address = document.getElementById('address').value;
+            var mobilenumber = document.getElementById('mobileNumber').value;
+            if(name.length==0)
+            {
+                alert("Please Enter Name");
+                document.getElementById('Name').focus();
+                return false;
+            }
+
+            var reg = /^([A-Za-z0-9])+\@([A-Za-z0-9])+\.([A-Za-z]{2,4})$/;
+            //var address = document.getElementById[email].value;
+            if (reg.test(email) == false) {
+                alert('Invalid Email Address');
+                return (false);
+            }
+
+            if (email.length == 0) {
+                alert("Please Enter email");
+                document.getElementById('email').focus();
+                return false;
+            }
+            if (password.length == 0) {
+                alert("Please Enter password");
+                document.getElementById('password').focus();
+                return false;
+            }
+            if (mobilenumber.length == 0) {
+                alert("Please Enter MobileNumber");
+                document.getElementById('mobileNumber').focus();
+                return false;
+            }
+            if (address.length == 0) {
+                alert("Please Enter address");
+                document.getElementById('address').focus();
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

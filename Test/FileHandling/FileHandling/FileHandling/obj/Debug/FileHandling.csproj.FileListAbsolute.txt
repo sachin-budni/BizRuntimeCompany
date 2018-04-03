@@ -1,0 +1,6 @@
+F:\BiizRuntime\FileHandling\FileHandling\FileHandling\bin\Debug\FileHandling.exe.config
+F:\BiizRuntime\FileHandling\FileHandling\FileHandling\bin\Debug\FileHandling.exe
+F:\BiizRuntime\FileHandling\FileHandling\FileHandling\bin\Debug\FileHandling.pdb
+F:\BiizRuntime\FileHandling\FileHandling\FileHandling\obj\Debug\FileHandling.csprojResolveAssemblyReference.cache
+F:\BiizRuntime\FileHandling\FileHandling\FileHandling\obj\Debug\FileHandling.exe
+F:\BiizRuntime\FileHandling\FileHandling\FileHandling\obj\Debug\FileHandling.pdb
