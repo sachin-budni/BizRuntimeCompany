@@ -11,19 +11,19 @@
     <!-- <a routerLink="/Contact">Contact</a> -->
     <a [matMenuTriggerFor]="menu" class="icon">Contact</a>
     <mat-icon [matMenuTriggerFor]="menu" class="icon">more_vert</mat-icon>
-      
-      <mat-menu #menu="matMenu">
-        <button mat-menu-item>
-          <mat-icon>home</mat-icon>
-          <a routerLink="/About" class="links">About Us</a>
-        </button>
-        <button mat-menu-item disabled>
-          <mat-icon>settings_phone</mat-icon>
-          <a routerLink="/Contact" class="links">Contact Us</a>
-        </button>
-        <button mat-menu-item>
-          <mat-icon>notifications_off</mat-icon>
-          <span>Disable alerts</span>
+    
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon>home</mat-icon>
+        <a routerLink="/About" class="links">About Us</a>
+      </button>
+      <button mat-menu-item disabled>
+        <mat-icon>settings_phone</mat-icon>
+        <a routerLink="/Contact" class="links">Contact Us</a>
+      </button>
+      <button mat-menu-item disabled>
+        <mat-icon>settings_phone</mat-icon>
+        <a routerLink="/Home" class="links">Home</a>
         </button>
       </mat-menu>
       
