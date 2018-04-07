@@ -1,0 +1,33 @@
+<mat-toolbar color="primary" class="navbar">
+    
+
+    <img src="{{imagePath}}" width="120px" style="padding-right:40px">
+  <!-- This fills the remaining space of the current row -->
+  <span class="example-fill-remaining-space"></span>
+    <div>
+    <a routerLink="/Home">Home</a>
+    <a routerLink="/About">About Us</a>
+    <a routerLink="/News">News</a>
+    <!-- <a routerLink="/Contact">Contact</a> -->
+    <a [matMenuTriggerFor]="menu" class="icon">Contact</a>
+    <mat-icon [matMenuTriggerFor]="menu" class="icon">more_vert</mat-icon>
+    
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon>home</mat-icon>
+        <a routerLink="/About" class="links">About Us</a>
+      </button>
+      <button mat-menu-item disabled>
+        <mat-icon>settings_phone</mat-icon>
+        <a routerLink="/Contact" class="links">Contact Us</a>
+      </button>
+      <button mat-menu-item disabled>
+        <mat-icon>settings_phone</mat-icon>
+        <a routerLink="/First" class="links">First</a>
+        </button>
+      </mat-menu>
+      
+  </div>
+</mat-toolbar>
+
+

@@ -1,0 +1,12 @@
+<h1>
+  first works!<br/>
+ 
+  Id : {{message.Id}}<br/>
+ Name : {{message.Name}}<br/>
+ Age : {{message.Age}}<br/>
+
+ Enter Id :<input #Id/><br/>
+ Enter Name :<input #Name/><br/>
+ Enter Age :<input #Age/><br/>
+  <button (click)="newMessage(Id.value,Name.value,Age.value)" class="button">Click Me!</button>
+</h1>

@@ -1,0 +1,19 @@
+<h1>
+<ol>
+  <li *ngFor="let fruit of Fruits">
+    {{fruit}}
+  </li>
+</ol></h1>
+{{Fruits}}<br/>
+<h1 [innerHTML]="Fruits"></h1>
+<h1 [style.background-color]="'blue'">jksjkjd</h1>
+
+<input #Name (keypress)="onKeyPress(Name.value)" />
+<button mat-button color="primary" (click)="onClick(Name.value)">Click Me!</button>
+
+<h1 [ngStyle]="myStyles">Fruit Name {{Name.value}}</h1>
+<h1 [ngStyle]="setMyStyle()">Fruit Name {{nam}}</h1>
+
+<input [(ngModel)]="rock" />
+<h1 [style.font-size.px]="rock">Temp key {{rock}}</h1>
+<angular-d3-donut [id]="donutChartId" [data]="donutChartData"></angular-d3-donut>
