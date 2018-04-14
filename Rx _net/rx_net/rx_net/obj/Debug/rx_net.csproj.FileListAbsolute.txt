@@ -1,0 +1,16 @@
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\rx_net.exe.config
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\rx_net.exe
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\rx_net.pdb
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\System.Reactive.Core.dll
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\System.Reactive.Interfaces.dll
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\System.Reactive.Linq.dll
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\System.Reactive.PlatformServices.dll
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\System.Reactive.Windows.Threading.dll
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\System.Reactive.Core.xml
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\System.Reactive.Interfaces.xml
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\System.Reactive.Linq.xml
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\System.Reactive.PlatformServices.xml
+F:\BiizRuntime\Rx _net\rx_net\rx_net\bin\Debug\System.Reactive.Windows.Threading.xml
+F:\BiizRuntime\Rx _net\rx_net\rx_net\obj\Debug\rx_net.csprojResolveAssemblyReference.cache
+F:\BiizRuntime\Rx _net\rx_net\rx_net\obj\Debug\rx_net.exe
+F:\BiizRuntime\Rx _net\rx_net\rx_net\obj\Debug\rx_net.pdb
