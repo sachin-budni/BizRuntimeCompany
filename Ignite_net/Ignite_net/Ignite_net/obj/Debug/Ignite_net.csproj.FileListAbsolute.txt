@@ -1,0 +1,9 @@
+F:\BiizRuntime\Ignite_net\Ignite_net\Ignite_net\bin\Debug\Ignite_net.exe.config
+F:\BiizRuntime\Ignite_net\Ignite_net\Ignite_net\bin\Debug\Ignite_net.exe
+F:\BiizRuntime\Ignite_net\Ignite_net\Ignite_net\bin\Debug\Ignite_net.pdb
+F:\BiizRuntime\Ignite_net\Ignite_net\Ignite_net\bin\Debug\Apache.Ignite.Core.dll
+F:\BiizRuntime\Ignite_net\Ignite_net\Ignite_net\bin\Debug\Apache.Ignite.exe
+F:\BiizRuntime\Ignite_net\Ignite_net\Ignite_net\bin\Debug\Apache.Ignite.Core.xml
+F:\BiizRuntime\Ignite_net\Ignite_net\Ignite_net\obj\Debug\Ignite_net.csprojResolveAssemblyReference.cache
+F:\BiizRuntime\Ignite_net\Ignite_net\Ignite_net\obj\Debug\Ignite_net.exe
+F:\BiizRuntime\Ignite_net\Ignite_net\Ignite_net\obj\Debug\Ignite_net.pdb

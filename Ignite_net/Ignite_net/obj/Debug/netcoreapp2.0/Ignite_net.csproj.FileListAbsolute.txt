@@ -1,0 +1,3 @@
+F:\BiizRuntime\Ignite_net\Ignite_net\obj\Debug\netcoreapp2.0\Ignite_net.csproj.CoreCompileInputs.cache
+F:\BiizRuntime\Ignite_net\Ignite_net\obj\Debug\netcoreapp2.0\Ignite_net.AssemblyInfoInputs.cache
+F:\BiizRuntime\Ignite_net\Ignite_net\obj\Debug\netcoreapp2.0\Ignite_net.AssemblyInfo.cs
