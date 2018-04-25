@@ -1,0 +1,17 @@
+.page {
+    background-color: yellow;
+    
+    &_head{
+        padding: 20px;
+        stroke: 10px;
+        background-color: red;
+    }
+    &_image--dog{
+        margin: -10px;
+        height: 600px;
+        width: 100%;
+        background: url("./../public/images/images.jpg");
+        background-repeat:unset; 
+
+    }
+}
